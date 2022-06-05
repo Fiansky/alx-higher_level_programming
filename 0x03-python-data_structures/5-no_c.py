@@ -1,3 +1,9 @@
 #!/usr/bin/python3
+
 def no_c(my_string):
-    return my_string.translate({ord(c): None for c in "cC"})
+    a = list(my_string)
+    for i in a:
+        if i == 'c' or i == 'C':
+            a.remove(i)
+    b = "".join(a)
+    return b

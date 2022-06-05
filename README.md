@@ -1,1 +1,2 @@
-This is an advancement to higher level programming in the ALX SE program
+# alx-higher_level_programming
+This repository contains all my ALX projects on higher level programming languages like Python
